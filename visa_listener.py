@@ -1,6 +1,6 @@
 ########################################################################################
 ## Author       : Prajyot
-## Contact      : prajyotg@nvidia.com
+## Contact      : prajyotgupta@gmail.com
 ## Description  : Script to read telegram account for any open slots 
 ########################################################################################
 
@@ -26,9 +26,9 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-# Bot Configuration
-API_ID: int = 25299843  
-API_KEY: str = '05560746eb6b655720de8aa05d30e966'  
+# Bot Configuration : Get details from Prajyot
+#API_ID: int =   
+#API_KEY: str = ''  
 SRC_CHANNEL_ID: str = 'H1B_H4_Visa_Dropbox_slots'
 
 TARGET_CHANNEL_URL: Optional[str] = 'https://t.me/+l97HFDmvYN5hNDQ1'
