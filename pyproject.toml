@@ -1,0 +1,24 @@
+[project]
+name = "visa-tracker"
+version = "0.1.0"
+description = "Telegram bot that monitors visa appointment slot availability via OCR"
+authors = [{ name = "Prajyot Gupta", email = "prajyotgupta@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = [
+    "telethon",
+    "opencv-python",
+    "pytesseract",
+    "pyttsx3; sys_platform == 'win32'",
+]
+
+[project.scripts]
+visa-listener = "visa_listener:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+]
